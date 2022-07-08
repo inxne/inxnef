@@ -57,6 +57,7 @@ async def music_r(ctx):
         await ctx.send(s[3])
     if arg == 4 :
         await ctx.send(s[4])
+    print(arg)
 
 
 
