@@ -1,4 +1,6 @@
-f = open('lyrics.txt', 'r',encoding="utf8")
+f = open('lyrics.txt', 'r', encoding="utf8")
+TOKEN = open('token.txt','r', encoding="utf8").read()
+
 c = f.read()
 import discord
 import random
@@ -55,7 +57,6 @@ async def music_r(ctx):
         await ctx.send(s[3])
     if arg == 4 :
         await ctx.send(s[4])
-
 
 
 
