@@ -2,7 +2,7 @@ import soupsieve
 
 f = open('lyrics.txt', 'r', encoding="utf8")
 TOKEN = open('token.txt','r', encoding="utf8").read()
-
+vc = None
 c = f.read()
 import discord
 import random
